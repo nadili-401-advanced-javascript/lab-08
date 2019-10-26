@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "test": "jest --verbose",
     "test-watch": "jest --watchAll --verbose"
   },
@@ -15,12 +15,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^8.0.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "jest": "^24.8.0",
-    "mongodb-memory-server": "^5.1.5",
-    "mongoose": "^5.6.1",
+    "jest": "^24.9.0",
+    "mongo-sync": "^2.0.1",
+    "mongodb-memory-server": "^5.2.11",
+    "mongoose": "^5.7.7",
     "mongoose-schema-jsonschema": "^1.2.1",
+    "nodemon": "^1.19.4",
     "supertest": "^4.0.2"
   }
 }
