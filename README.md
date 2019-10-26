@@ -11,13 +11,20 @@
 
 ### Modules
 #### `server.js`
-#### 
+#### `people-routers.js`
+#### `teams-routers.js`
+#### `model.js`
+#### `people.js`
+#### `teams.js`
 
 
 ### Setup
 #### Running the app
-* nodemon index.js
+* node index.js
 * http://localhost:3000
+
+#### Running db
+mongod --dbpath= /PATH to mongodb/
 
   
 #### Tests
