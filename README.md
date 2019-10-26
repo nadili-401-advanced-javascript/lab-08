@@ -26,4 +26,4 @@
 
 
 #### UML
-![ UML for the 'callbacks' part of the application ](/assets/lab-08-uml.jpg)
+![ UML ](/assets/lab-08-uml.jpg)
