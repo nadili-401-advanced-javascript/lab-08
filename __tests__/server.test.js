@@ -18,4 +18,9 @@ describe('web server', () => {
       })
       .catch(console.error);
   });
+  it('should respond properly on a get request to /teams', async () => {
+    let results = await mockServer.get('/teams');
+    expect(results.status).toBe(200);
+  });
+
 });

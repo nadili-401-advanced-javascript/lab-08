@@ -13,6 +13,9 @@
 #### `server.js`
 #### `people-routers.js`
 #### `teams-routers.js`
+#### `404.js`
+#### `500.js`
+#### `timestamp.js`
 #### `model.js`
 #### `people.js`
 #### `teams.js`
