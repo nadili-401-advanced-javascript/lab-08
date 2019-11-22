@@ -2,3 +2,6 @@ node_modules/**
 server.js
 supertester.js
 server.test.js
+people-routes.js
+teams-routes.js
+model.js

@@ -11,13 +11,23 @@
 
 ### Modules
 #### `server.js`
-#### 
+#### `people-routers.js`
+#### `teams-routers.js`
+#### `404.js`
+#### `500.js`
+#### `timestamp.js`
+#### `model.js`
+#### `people.js`
+#### `teams.js`
 
 
 ### Setup
 #### Running the app
-* nodemon index.js
+* node index.js
 * http://localhost:3000
+
+#### Running db
+mongod --dbpath= /PATH to mongodb/
 
   
 #### Tests
@@ -26,4 +36,4 @@
 
 
 #### UML
-![ UML for the 'callbacks' part of the application ](/assets/lab-08-uml.jpg)
+![ UML ](/assets/lab-08-uml.jpg)
